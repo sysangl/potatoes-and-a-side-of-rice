@@ -1,0 +1,119 @@
+{
+    "height": 30, // Waybar height (to be removed for auto height)
+    "layer": "top", // Waybar at top layer
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-bottom": 0,
+    "margin-right": 0,
+    //"spacing": 5, // Gaps between modules (4px)
+    "modules-left": [ "memory","custom/separator", "hyprland/window" ],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["tray", "custom/notification", "backlight", "pulseaudio", "battery", "clock"],
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "on-click": "activate",
+      "format-icons": {
+        //"1": "",//
+        "empty": "",
+        "urgent": "",
+        "default": ""
+      },
+      "persistent-workspaces": {
+        "*":[1,2,3]
+      }
+    },
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 50
+    },
+    "custom/separator": {
+      "format": "|",
+      "interval": "once",
+      "tooltip": false
+    },
+    "tray": {
+        "spacing": 20
+    },
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "format-alt": "{:%a %b %d}",
+        "tooltip-format": "<span color='#CED4DA'><big>{:%B %Y}</big>\n<tt ><small>{calendar}</small></tt></span>",
+    },
+    "cpu": {
+      "interval": 10,
+      "format": " {}%",
+      "max-length": 10,
+      "on-click": "",
+    },
+    "memory": {
+        "interval": 30,
+        "format": "󰄫 {}%",
+        "format-alt":" {used:0.1f}G",
+        "max-length": 10,
+    },
+    "backlight": {
+        "device": "DP-1",
+        "format": "{icon} {percent}%",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "on-click": "",
+    },
+    "custom/notification": {
+        "tooltip": false,
+        "format": "{icon}",
+        "format-icons": {
+          "notification": "<sup></sup>",
+          "none": "",
+          "dnd-notification": "<sup></sup>",
+          "dnd-none": "",
+          "inhibited-notification": "<sup></sup>",
+          "inhibited-none": "",
+          "dnd-inhibited-notification": "<sup></sup>",
+          "dnd-inhibited-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
+      },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "  {volume}%",
+        "format-bluetooth-muted": "婢 ",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pactl set-sink-mute 0 toggle"
+    },
+    "bluetooth": {
+        "on-click": "~/.config/waybar/scripts/rofi-bluetooth &",
+        "format": " {status}"
+    },
+    "battery": {
+      "bat": "BAT1",
+      "adapter": "ADP1",
+      "interval": 60,
+      "states": {
+          "warning": 30,
+          "critical": 15
+      },
+      "max-length": 20,
+      "format": "{icon} {capacity}%",
+      "format-warning": "{icon} {capacity}%",
+      "format-critical": "{icon} {capacity}%",
+      "format-charging": "<span font-family='Font Awesome 6 Free'></span> {capacity}%",
+      "format-plugged": "󰠠 {capacity}%",
+      "format-alt": "{icon} {time}",
+      "format-full": "󰠠 {capacity}%",
+      "format-icons": ["󱃓 ", "󰪞 ", "󰪟 ", "󰪠 ", "󰪡 ", "󰪢 ", "󰪣 ", "󰪤 ", "󰪥 "],
+      "on-scroll-up": "brightnessctl "
+    }
+}
