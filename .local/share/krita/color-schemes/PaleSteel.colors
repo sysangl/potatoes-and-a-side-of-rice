@@ -1,0 +1,28 @@
+[ColorEffects:Inactive]
+ChangeSelectionColor=false
+
+
+[Colors:Button]
+BackgroundNormal=33, 37, 41
+ForegroundNormal=233, 236, 239
+
+
+[Colors:Selection]
+BackgroundNormal=108, 117, 125
+ForegroundNormal=0
+
+
+[Colors:View]
+BackgroundAlternate=33, 37, 41
+BackgroundNormal=73, 80, 87
+ForegroundLink=222, 250, 230
+ForegroundNormal=206, 212, 218
+
+
+[Colors:Window]
+BackgroundNormal=21,25,29,100
+ForegroundNormal=173, 181, 189
+
+
+[General]
+Name=Niko Pale Steel

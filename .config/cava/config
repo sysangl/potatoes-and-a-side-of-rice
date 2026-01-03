@@ -211,32 +211,41 @@ source = auto
 ; waveform = 0
 
 [color]
+background = default
+foreground = default
 
-# Colors can be one of seven predefined: black, blue, cyan, green, magenta, red, white, yellow.
-# Or defined by hex code '#xxxxxx' (hex code must be within ''). User defined colors requires
-# a terminal that can change color definitions such as Gnome-terminal or rxvt.
-# default is to keep current terminal color
-; background = default
-; foreground = default
-
-# SDL and sdl_glsl only support hex code colors, these are the default:
-; background = '#111111'
-; foreground = '#33ffff'
-
-
-# Gradient mode, only hex defined colors are supported,
-# background must also be defined in hex or remain commented out. 1 = on, 0 = off.
-# You can define as many as 8 different colors. They range from bottom to top of screen
 gradient = 1
-gradient_count = 8
-gradient_color_8 = '#a53030'
-gradient_color_7 = '#9a3250'
-gradient_color_6 = '#8e3463'
-gradient_color_5 = '#823871'
-gradient_color_4 = '#75427a'
-gradient_color_3 = '#674b80'
-gradient_color_2 = '#525687'
-gradient_color_1 = '#3c5e8b'
+gradient_color_1 = '#212529'
+gradient_color_2 = '#495057'
+gradient_color_3 = '#ADB5BD'
+gradient_color_4 = '#DEE2E6'
+gradient_color_5 = '#F8F9FA'
+
+# # Colors can be one of seven predefined: black, blue, cyan, green, magenta, red, white, yellow.
+# # Or defined by hex code '#xxxxxx' (hex code must be within ''). User defined colors requires
+# # a terminal that can change color definitions such as Gnome-terminal or rxvt.
+# # default is to keep current terminal color
+# ; background = default
+# ; foreground = default
+
+# # SDL and sdl_glsl only support hex code colors, these are the default:
+# ; background = '#111111'
+# ; foreground = '#33ffff'
+
+
+# # Gradient mode, only hex defined colors are supported,
+# # background must also be defined in hex or remain commented out. 1 = on, 0 = off.
+# # You can define as many as 8 different colors. They range from bottom to top of screen
+# gradient = 1
+# gradient_count = 8
+# gradient_color_8 = '#a53030'
+# gradient_color_7 = '#9a3250'
+# gradient_color_6 = '#8e3463'
+# gradient_color_5 = '#823871'
+# gradient_color_4 = '#75427a'
+# gradient_color_3 = '#674b80'
+# gradient_color_2 = '#525687'
+# gradient_color_1 = '#3c5e8b'
 
 
 
