@@ -117,7 +117,7 @@ export PATH=$PATH:/home/niko/.spicetify
 # Created by `pipx` on 2024-07-29 21:55:08
 export PATH="$PATH:/home/niko/.local/bin"
 
-fastfetch --logo YiffOS
+fastfetch --logo YiffOS --logo-color-1 '#E9ECEF' --logo-color-2 '#ADB5BD' --color-output '#6C757D'
 #icat --place 30x20@0x1 ~/Pictures/duck-pathetic.jpg
 
 # Niko's Custom prompt
