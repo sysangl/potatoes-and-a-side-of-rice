@@ -1,32 +1,4 @@
-fastfetch --logo YiffOS
-#icat --place 30x20@0x1 ~/Pictures/duck-pathetic.jpg
 
-# Niko's Custom prompt
-
-
-prompt_git() {
-  REF=$(git rev-parse --abbrev-ref HEAD 2> /dev/null)
-
-  if [ -n "$REF" ]; then
-    echo "%F{blue}(%f${REF}%F{blue})%f"
-  fi
-
-  STATUS=$(git status --porcelain 2> /dev/null)
-
-  if [ -n "$STATUS" ]; then
-    # Add ! for changes
-    echo "%F{red}!%f" 
-  fi
-}
-
-precmd() { 
-  print -rP '   %B%F{red}%n%f@%m 〉 %~' 
-  prompt_git
-}
-
-
-PROMPT='   %F{green}󰛓%f%B 〉%f'
-RPROMPT='〈 at %B%D{%H:%M}%f   '
 
 
 # If you come from bash you might have to change your $PATH.
@@ -144,3 +116,43 @@ export PATH=$PATH:/home/niko/.spicetify
 
 # Created by `pipx` on 2024-07-29 21:55:08
 export PATH="$PATH:/home/niko/.local/bin"
+
+fastfetch --logo YiffOS
+#icat --place 30x20@0x1 ~/Pictures/duck-pathetic.jpg
+
+# Niko's Custom prompt
+
+static_info() {
+  echo "%B%F{red}%n%f@%m"
+}
+
+cur_wdir() {
+  tmp_out=""
+  git_cb=$(git_current_branch)
+
+  if [ -n "$git_cb" ]; then
+    tmp_out="$tmp_out%F{blue}%~%f"
+  else
+    tmp_out="$tmp_out%~"
+  fi
+
+  if [ -n "$git_cb" ]; then
+    tmp_out="$tmp_out %F{blue}(%f$git_cb%F{blue})%f"
+  fi
+
+  if [ -n "$(git status --porcelain 2> /dev/null)" ]; then
+    # Add ! for changes
+    tmp_out="$tmp_out%F{red}!%f" 
+  fi
+
+  echo $tmp_out
+
+}
+
+precmd() { 
+  print -rP '   $(static_info) 〉  $(cur_wdir) ' 
+}
+
+
+PROMPT='   %F{green}󰛓%f%B 〉%f'
+RPROMPT='〈 at %B%D{%H:%M}%f   '
