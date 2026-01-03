@@ -97,7 +97,7 @@ window#waybar.hidden {
 #memory,
 #cpu,#tray{
   padding: 0 10px;
-  color: #e5e5e5;
+  color: #e5e5e5; 
   /* color: #bf616a; */
 }
 
