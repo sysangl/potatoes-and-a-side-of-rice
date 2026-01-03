@@ -57,6 +57,10 @@ window#waybar.hidden {
 }
 
 
+.custom-icon-size {
+  font-size: 12px;
+}
+
 #memory,
 #cpu,
 #window,
@@ -158,7 +162,7 @@ window#waybar.empty #window {
 }
 
 #clock {
-  color: #CED4DA;
+  color: #CED4DA; 
   /* background-color: #14141e; */
 }
 
