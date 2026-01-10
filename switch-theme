@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+
+echo "Available Rices =========="
+ls -1 ./Rices
+
+#read -p "Enter theme name : " themename
+
+#echo "Switched to $themename"
