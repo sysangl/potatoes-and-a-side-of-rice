@@ -1,0 +1,2570 @@
+14:14:21 [info] [LOG SESSION] ---------- START ----------
+14:14:21 [info] [PluginFactory] loading plugins
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libportaudioout.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpipewireout.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libopenmptdecoder.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+14:14:21 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsndioout.so
+14:14:21 [info] [PortAudioOut] Pa_Initialize() return code: 0
+14:14:21 [info] [PipeWireOut] shutdown started
+14:14:21 [info] [PipeWireOut] shutdown complete
+14:14:21 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+14:14:21 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+14:14:21 [info] [PortAudioOut] Pa_Terminate() return code: 0
+14:14:21 [info] [Indexer] indexer source -1303229654 running...
+14:14:21 [info] [Indexer] indexer source -1303229654 finished
+14:14:21 [info] [Indexer] indexer source 155697690 running...
+14:14:21 [info] [Indexer] indexer source 155697690 finished
+14:14:21 [info] [Indexer] scanning /home/niko/Music/
+14:14:22 [info] [Indexer] scan completed successfully
+14:14:22 [info] [Indexer] cleanup 1/2
+14:14:22 [info] [Indexer] cleanup 2/2
+14:14:22 [info] [Indexer] optimizing
+14:14:22 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+14:14:22 [info] [Indexer] done!
+14:14:22 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+14:14:22 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+14:14:22 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+14:14:22 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+14:14:22 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+14:14:22 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:14:22 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:14:22 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+14:14:22 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+14:14:22 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+14:14:22 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+14:14:23 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+14:14:23 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+14:14:23 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+14:14:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:14:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:14:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:14:24 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+14:14:24 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+14:14:24 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+14:14:24 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:14:24 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:14:24 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:14:24 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+14:14:24 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+14:14:24 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+14:14:24 [info] [GaplessTransport] starting track at /home/niko/Music/Elspongie, Aviators/Breathe.mp3
+14:14:24 [info] [Player] new instance created
+14:14:24 [info] [GaplessTransport] stop
+14:14:24 [info] [Stream] opening /home/niko/Music/Elspongie, Aviators/Breathe.mp3
+14:14:24 [info] [LocalFileStream] opening file: /home/niko/Music/Elspongie, Aviators/Breathe.mp3
+14:14:24 [info] [ffmpegdecoder] parsing data stream...
+14:14:24 [error] [ffmpegdecoder] failed to find compatible audio stream
+14:14:24 [error] [Streams] open ok, but decode failed /home/niko/Music/Elspongie, Aviators/Breathe.mp3
+14:14:33 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
+14:14:33 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
+14:14:33 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
+14:14:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:14:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:14:34 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:14:38 [info] [PortAudioOut] Pa_Initialize() return code: 0
+14:14:38 [info] [PipeWireOut] shutdown started
+14:14:38 [info] [PipeWireOut] shutdown complete
+14:14:38 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+14:14:38 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+14:14:38 [info] [PortAudioOut] Pa_Terminate() return code: 0
+14:14:38 [info] [PortAudioOut] Pa_Initialize() return code: 0
+14:14:38 [info] [PipeWireOut] shutdown started
+14:14:38 [info] [PipeWireOut] shutdown complete
+14:14:38 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+14:14:38 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+14:14:38 [info] [PortAudioOut] Pa_Terminate() return code: 0
+14:14:45 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+14:14:45 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+14:14:45 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+14:14:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:14:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:14:45 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:14:45 [info] [GaplessTransport] starting track at /home/niko/Music/Elspongie, Aviators/Breathe.mp3
+14:14:45 [info] [Player] new instance created
+14:14:45 [info] [GaplessTransport] stop
+14:14:45 [info] [Stream] opening /home/niko/Music/Elspongie, Aviators/Breathe.mp3
+14:14:45 [info] [LocalFileStream] opening file: /home/niko/Music/Elspongie, Aviators/Breathe.mp3
+14:14:45 [info] [ffmpegdecoder] parsing data stream...
+14:14:45 [error] [ffmpegdecoder] failed to find compatible audio stream
+14:14:45 [error] [Streams] open ok, but decode failed /home/niko/Music/Elspongie, Aviators/Breathe.mp3
+14:14:46 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:14:46 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:14:46 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:14:48 [info] [GaplessTransport] starting track at /home/niko/Music/AJR/Yes I'm A Mess.mp3
+14:14:48 [info] [Player] new instance created
+14:14:48 [info] [GaplessTransport] stop
+14:14:48 [info] [Stream] opening /home/niko/Music/AJR/Yes I'm A Mess.mp3
+14:14:48 [info] [LocalFileStream] opening file: /home/niko/Music/AJR/Yes I'm A Mess.mp3
+14:14:48 [info] [ffmpegdecoder] parsing data stream...
+14:14:48 [info] [ffmpegdecoder] found audio stream!
+14:14:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:14:48 [info] [Streams] found a decoder for /home/niko/Music/AJR/Yes I'm A Mess.mp3
+14:14:48 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:14:48 [info] [Player] new instance created
+14:14:48 [info] [Stream] opening /home/niko/Music/Craft Therapy/minecraft music but you aren't a kid anymore....mp3
+14:14:48 [info] [LocalFileStream] opening file: /home/niko/Music/Craft Therapy/minecraft music but you aren't a kid anymore....mp3
+14:14:48 [info] [ffmpegdecoder] parsing data stream...
+14:14:48 [info] [ffmpegdecoder] found audio stream!
+14:14:48 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:14:48 [info] [Streams] found a decoder for /home/niko/Music/Craft Therapy/minecraft music but you aren't a kid anymore....mp3
+14:15:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:15:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:15:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:17:07 [info] [ffmpegdecoder] finished decoding.
+14:17:10 [info] [GaplessTransport] stop
+14:17:10 [info] [Player] new instance created
+14:17:10 [info] [Stream] opening /home/niko/Music/Geoff Castellucci/I SEE FIRE - The Hobbit   Low Bass Singer Cover   Geoff Castellucci.mp3
+14:17:10 [info] [LocalFileStream] opening file: /home/niko/Music/Geoff Castellucci/I SEE FIRE - The Hobbit   Low Bass Singer Cover   Geoff Castellucci.mp3
+14:17:10 [info] [ffmpegdecoder] parsing data stream...
+14:17:10 [info] [ffmpegdecoder] found audio stream!
+14:17:10 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:17:10 [info] [Streams] found a decoder for /home/niko/Music/Geoff Castellucci/I SEE FIRE - The Hobbit   Low Bass Singer Cover   Geoff Castellucci.mp3
+14:17:30 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:17:30 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:17:30 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:21:06 [info] [GaplessTransport] starting track at /home/niko/Music/Geoff Castellucci/I SEE FIRE - The Hobbit   Low Bass Singer Cover   Geoff Castellucci.mp3
+14:21:06 [info] [Player] new instance created
+14:21:06 [info] [GaplessTransport] stop
+14:21:06 [info] [Stream] opening /home/niko/Music/Geoff Castellucci/I SEE FIRE - The Hobbit   Low Bass Singer Cover   Geoff Castellucci.mp3
+14:21:06 [info] [LocalFileStream] opening file: /home/niko/Music/Geoff Castellucci/I SEE FIRE - The Hobbit   Low Bass Singer Cover   Geoff Castellucci.mp3
+14:21:06 [info] [ffmpegdecoder] parsing data stream...
+14:21:06 [info] [ffmpegdecoder] found audio stream!
+14:21:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:06 [info] [Streams] found a decoder for /home/niko/Music/Geoff Castellucci/I SEE FIRE - The Hobbit   Low Bass Singer Cover   Geoff Castellucci.mp3
+14:21:07 [info] [Player] new instance created
+14:21:07 [info] [Stream] opening /home/niko/Music/Joe Mathews   Composer/Lonely STALKER (3 Hours of Post Apocalyptic Acoustic Guitar with campfire ambience).mp3
+14:21:07 [info] [LocalFileStream] opening file: /home/niko/Music/Joe Mathews   Composer/Lonely STALKER (3 Hours of Post Apocalyptic Acoustic Guitar with campfire ambience).mp3
+14:21:07 [info] [ffmpegdecoder] parsing data stream...
+14:21:07 [info] [ffmpegdecoder] found audio stream!
+14:21:07 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:07 [info] [Streams] found a decoder for /home/niko/Music/Joe Mathews   Composer/Lonely STALKER (3 Hours of Post Apocalyptic Acoustic Guitar with campfire ambience).mp3
+14:21:09 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:09 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:09 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:11 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:14 [info] [GaplessTransport] starting track at /home/niko/Music/Namewee, 二宮芽生 Meu Ninomiya/Makudonarudo.mp3
+14:21:14 [info] [Player] new instance created
+14:21:14 [info] [GaplessTransport] stop
+14:21:14 [info] [Stream] opening /home/niko/Music/Namewee, 二宮芽生 Meu Ninomiya/Makudonarudo.mp3
+14:21:14 [info] [LocalFileStream] opening file: /home/niko/Music/Namewee, 二宮芽生 Meu Ninomiya/Makudonarudo.mp3
+14:21:14 [info] [ffmpegdecoder] parsing data stream...
+14:21:14 [error] [ffmpegdecoder] failed to find compatible audio stream
+14:21:14 [error] [Streams] open ok, but decode failed /home/niko/Music/Namewee, 二宮芽生 Meu Ninomiya/Makudonarudo.mp3
+14:21:22 [info] [GaplessTransport] starting track at /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:22 [info] [Player] new instance created
+14:21:22 [info] [GaplessTransport] stop
+14:21:22 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:22 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:22 [info] [ffmpegdecoder] parsing data stream...
+14:21:22 [info] [ffmpegdecoder] found audio stream!
+14:21:22 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:22 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:22 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:22 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:22 [info] [ffmpegdecoder] finished decoding.
+14:21:22 [info] [GaplessTransport] stop
+14:21:23 [info] [Player] new instance created
+14:21:23 [info] [GaplessTransport] stop
+14:21:23 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Breakthrough.mp3
+14:21:23 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Breakthrough.mp3
+14:21:23 [info] [ffmpegdecoder] parsing data stream...
+14:21:23 [info] [ffmpegdecoder] found audio stream!
+14:21:23 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:23 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Breakthrough.mp3
+14:21:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [info] [GaplessTransport] starting track at /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:23 [info] [Player] new instance created
+14:21:23 [info] [GaplessTransport] stop
+14:21:23 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:23 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:23 [info] [ffmpegdecoder] parsing data stream...
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [info] [ffmpegdecoder] found audio stream!
+14:21:23 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:23 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [info] [ffmpegdecoder] finished decoding.
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [info] [ffmpegdecoder] finished decoding.
+14:21:23 [info] [GaplessTransport] stop
+14:21:23 [info] [Player] new instance created
+14:21:23 [info] [GaplessTransport] stop
+14:21:23 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Breakthrough.mp3
+14:21:23 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Breakthrough.mp3
+14:21:23 [info] [ffmpegdecoder] parsing data stream...
+14:21:23 [info] [GaplessTransport] starting track at /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:23 [info] [Player] new instance created
+14:21:23 [info] [GaplessTransport] stop
+14:21:23 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:23 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:23 [info] [ffmpegdecoder] parsing data stream...
+14:21:23 [info] [ffmpegdecoder] found audio stream!
+14:21:23 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:23 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Breakthrough.mp3
+14:21:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [info] [ffmpegdecoder] found audio stream!
+14:21:23 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:23 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Bloodlines.mp3
+14:21:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [info] [ffmpegdecoder] finished decoding.
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [info] [ffmpegdecoder] finished decoding.
+14:21:23 [info] [GaplessTransport] stop
+14:21:23 [info] [Player] new instance created
+14:21:23 [info] [GaplessTransport] stop
+14:21:23 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Breakthrough.mp3
+14:21:23 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Breakthrough.mp3
+14:21:23 [info] [ffmpegdecoder] parsing data stream...
+14:21:23 [info] [ffmpegdecoder] found audio stream!
+14:21:23 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:23 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Breakthrough.mp3
+14:21:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [info] [ffmpegdecoder] finished decoding.
+14:21:23 [info] [GaplessTransport] stop
+14:21:23 [info] [Player] new instance created
+14:21:23 [info] [GaplessTransport] stop
+14:21:23 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Awakening.mp3
+14:21:23 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Awakening.mp3
+14:21:23 [info] [ffmpegdecoder] parsing data stream...
+14:21:23 [info] [ffmpegdecoder] found audio stream!
+14:21:23 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:23 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Awakening.mp3
+14:21:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:23 [info] [ffmpegdecoder] finished decoding.
+14:21:23 [info] [GaplessTransport] stop
+14:21:24 [info] [Player] new instance created
+14:21:24 [info] [GaplessTransport] stop
+14:21:24 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Break For It.mp3
+14:21:24 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Break For It.mp3
+14:21:24 [info] [ffmpegdecoder] parsing data stream...
+14:21:24 [info] [ffmpegdecoder] found audio stream!
+14:21:24 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:24 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Break For It.mp3
+14:21:24 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:24 [info] [ffmpegdecoder] finished decoding.
+14:21:24 [info] [GaplessTransport] stop
+14:21:24 [info] [Player] new instance created
+14:21:24 [info] [GaplessTransport] stop
+14:21:24 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/All Day.mp3
+14:21:24 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/All Day.mp3
+14:21:24 [info] [ffmpegdecoder] parsing data stream...
+14:21:24 [error] [ffmpegdecoder] audio stream not found in input data.
+14:21:24 [error] [ffmpegdecoder] failed to find compatible audio stream
+14:21:24 [error] [Streams] open ok, but decode failed /home/niko/Music/Oh Geeez Not Again/All Day.mp3
+14:21:25 [info] [GaplessTransport] starting track at /home/niko/Music/Oh Geeez Not Again/Awakening.mp3
+14:21:25 [info] [Player] new instance created
+14:21:25 [info] [GaplessTransport] stop
+14:21:25 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Awakening.mp3
+14:21:25 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Awakening.mp3
+14:21:25 [info] [ffmpegdecoder] parsing data stream...
+14:21:25 [info] [ffmpegdecoder] found audio stream!
+14:21:25 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:25 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Awakening.mp3
+14:21:25 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:25 [info] [ffmpegdecoder] finished decoding.
+14:21:26 [info] [GaplessTransport] stop
+14:21:26 [info] [Player] new instance created
+14:21:26 [info] [GaplessTransport] stop
+14:21:26 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Break For It.mp3
+14:21:26 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Break For It.mp3
+14:21:26 [info] [ffmpegdecoder] parsing data stream...
+14:21:26 [info] [ffmpegdecoder] found audio stream!
+14:21:26 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:26 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Break For It.mp3
+14:21:26 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:26 [info] [ffmpegdecoder] finished decoding.
+14:21:26 [info] [GaplessTransport] stop
+14:21:26 [info] [Player] new instance created
+14:21:26 [info] [GaplessTransport] stop
+14:21:26 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/All Day.mp3
+14:21:26 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/All Day.mp3
+14:21:26 [info] [ffmpegdecoder] parsing data stream...
+14:21:26 [error] [ffmpegdecoder] audio stream not found in input data.
+14:21:26 [error] [ffmpegdecoder] failed to find compatible audio stream
+14:21:26 [error] [Streams] open ok, but decode failed /home/niko/Music/Oh Geeez Not Again/All Day.mp3
+14:21:27 [info] [GaplessTransport] starting track at /home/niko/Music/Oh Geeez Not Again/All Day.mp3
+14:21:27 [info] [Player] new instance created
+14:21:27 [info] [GaplessTransport] stop
+14:21:27 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/All Day.mp3
+14:21:27 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/All Day.mp3
+14:21:27 [info] [ffmpegdecoder] parsing data stream...
+14:21:27 [error] [ffmpegdecoder] audio stream not found in input data.
+14:21:27 [error] [ffmpegdecoder] failed to find compatible audio stream
+14:21:27 [error] [Streams] open ok, but decode failed /home/niko/Music/Oh Geeez Not Again/All Day.mp3
+14:21:29 [info] [GaplessTransport] starting track at /home/niko/Music/Oh Geeez Not Again/Eyes Open.mp3
+14:21:29 [info] [Player] new instance created
+14:21:29 [info] [GaplessTransport] stop
+14:21:29 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Eyes Open.mp3
+14:21:29 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Eyes Open.mp3
+14:21:29 [info] [ffmpegdecoder] parsing data stream...
+14:21:29 [info] [ffmpegdecoder] found audio stream!
+14:21:29 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:29 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Eyes Open.mp3
+14:21:29 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [info] [ffmpegdecoder] finished decoding.
+14:21:29 [info] [GaplessTransport] stop
+14:21:29 [info] [Player] new instance created
+14:21:29 [info] [GaplessTransport] stop
+14:21:29 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Can't Run.mp3
+14:21:29 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Can't Run.mp3
+14:21:29 [info] [ffmpegdecoder] parsing data stream...
+14:21:29 [info] [ffmpegdecoder] found audio stream!
+14:21:29 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:29 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Can't Run.mp3
+14:21:29 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [info] [ffmpegdecoder] finished decoding.
+14:21:29 [info] [GaplessTransport] stop
+14:21:29 [info] [Player] new instance created
+14:21:29 [info] [GaplessTransport] stop
+14:21:29 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Coming Home.mp3
+14:21:29 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Coming Home.mp3
+14:21:29 [info] [ffmpegdecoder] parsing data stream...
+14:21:29 [info] [ffmpegdecoder] found audio stream!
+14:21:29 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:29 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Coming Home.mp3
+14:21:29 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [info] [ffmpegdecoder] finished decoding.
+14:21:29 [info] [GaplessTransport] stop
+14:21:29 [info] [Player] new instance created
+14:21:29 [info] [GaplessTransport] stop
+14:21:29 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Lay It on Me.mp3
+14:21:29 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Lay It on Me.mp3
+14:21:29 [info] [ffmpegdecoder] parsing data stream...
+14:21:29 [info] [ffmpegdecoder] found audio stream!
+14:21:29 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:29 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Lay It on Me.mp3
+14:21:29 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [info] [ffmpegdecoder] finished decoding.
+14:21:29 [info] [GaplessTransport] stop
+14:21:29 [info] [Player] new instance created
+14:21:29 [info] [GaplessTransport] stop
+14:21:29 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Hope It's Me.mp3
+14:21:29 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Hope It's Me.mp3
+14:21:29 [info] [ffmpegdecoder] parsing data stream...
+14:21:29 [info] [ffmpegdecoder] found audio stream!
+14:21:29 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:29 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Hope It's Me.mp3
+14:21:29 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:29 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [info] [Player] new instance created
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Breathe.mp3
+14:21:30 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Breathe.mp3
+14:21:30 [info] [ffmpegdecoder] parsing data stream...
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [info] [ffmpegdecoder] found audio stream!
+14:21:30 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:30 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Breathe.mp3
+14:21:30 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [info] [ffmpegdecoder] finished decoding.
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:30 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:31 [info] [ffmpegdecoder] finished decoding.
+14:21:31 [info] [GaplessTransport] starting track at /home/niko/Music/Oh Geeez Not Again/Breathe.mp3
+14:21:31 [info] [Player] new instance created
+14:21:31 [info] [GaplessTransport] stop
+14:21:31 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Breathe.mp3
+14:21:31 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Breathe.mp3
+14:21:31 [info] [ffmpegdecoder] parsing data stream...
+14:21:32 [info] [ffmpegdecoder] found audio stream!
+14:21:32 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:32 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Breathe.mp3
+14:21:32 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [info] [ffmpegdecoder] finished decoding.
+14:21:32 [info] [GaplessTransport] stop
+14:21:32 [info] [Player] new instance created
+14:21:32 [info] [GaplessTransport] stop
+14:21:32 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Are You With Me#.mp3
+14:21:32 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Are You With Me#.mp3
+14:21:32 [info] [ffmpegdecoder] parsing data stream...
+14:21:32 [info] [ffmpegdecoder] found audio stream!
+14:21:32 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:32 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Are You With Me#.mp3
+14:21:32 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Output changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [info] [ffmpegdecoder] finished decoding.
+14:21:32 [info] [GaplessTransport] stop
+14:21:32 [info] [Player] new instance created
+14:21:32 [info] [GaplessTransport] stop
+14:21:32 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Forest Fire.mp3
+14:21:32 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Forest Fire.mp3
+14:21:32 [info] [ffmpegdecoder] parsing data stream...
+14:21:32 [info] [ffmpegdecoder] found audio stream!
+14:21:32 [info] [ffmpegdecoder] resolved codec: MP1 (MPEG audio layer 1)
+14:21:32 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Forest Fire.mp3
+14:21:32 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:32 [info] [Player] new instance created
+14:21:32 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Fighter.mp3
+14:21:32 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Fighter.mp3
+14:21:32 [info] [ffmpegdecoder] parsing data stream...
+14:21:33 [info] [ffmpegdecoder] found audio stream!
+14:21:33 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:33 [info] [Streams] found a decoder for /home/niko/Music/Oh Geeez Not Again/Fighter.mp3
+14:21:33 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:33 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:33 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:33 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:33 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:33 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:33 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:33 [info] [ffmpegdecoder] finished decoding.
+14:21:33 [warning] [ffmpegdecoder] swr_convert_frame() failed: Input changed
+14:21:33 [info] [GaplessTransport] starting track at /home/niko/Music/Oh Geeez Not Again/Infiltrators.mp3
+14:21:33 [info] [Player] new instance created
+14:21:33 [info] [GaplessTransport] stop
+14:21:33 [info] [Stream] opening /home/niko/Music/Oh Geeez Not Again/Infiltrators.mp3
+14:21:33 [info] [LocalFileStream] opening file: /home/niko/Music/Oh Geeez Not Again/Infiltrators.mp3
+14:21:33 [info] [ffmpegdecoder] parsing data stream...
+14:21:33 [error] [ffmpegdecoder] audio stream not found in input data.
+14:21:33 [error] [ffmpegdecoder] failed to find compatible audio stream
+14:21:33 [error] [Streams] open ok, but decode failed /home/niko/Music/Oh Geeez Not Again/Infiltrators.mp3
+14:21:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:33 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:34 [info] [GaplessTransport] starting track at /home/niko/Music/Aviators/Find Me.mp3
+14:21:34 [info] [Player] new instance created
+14:21:34 [info] [GaplessTransport] stop
+14:21:34 [info] [Stream] opening /home/niko/Music/Aviators/Find Me.mp3
+14:21:34 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators/Find Me.mp3
+14:21:34 [info] [ffmpegdecoder] parsing data stream...
+14:21:34 [info] [ffmpegdecoder] found audio stream!
+14:21:34 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:34 [info] [Streams] found a decoder for /home/niko/Music/Aviators/Find Me.mp3
+14:21:34 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:35 [info] [Player] new instance created
+14:21:35 [info] [Stream] opening /home/niko/Music/Aviators/Kill Switch.mp3
+14:21:35 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators/Kill Switch.mp3
+14:21:35 [info] [ffmpegdecoder] parsing data stream...
+14:21:35 [info] [ffmpegdecoder] found audio stream!
+14:21:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:21:35 [info] [Streams] found a decoder for /home/niko/Music/Aviators/Kill Switch.mp3
+14:21:35 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:21:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:21:36 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:21:55 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:21:55 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:21:55 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:27:07 [info] [ffmpegdecoder] finished decoding.
+14:27:09 [info] [GaplessTransport] stop
+14:27:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:27:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:27:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:27:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:27:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:27:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:27:09 [info] [Player] new instance created
+14:27:09 [info] [Stream] opening /home/niko/Music/Aviators/Iron Horizon.mp3
+14:27:09 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators/Iron Horizon.mp3
+14:27:09 [info] [ffmpegdecoder] parsing data stream...
+14:27:09 [info] [ffmpegdecoder] found audio stream!
+14:27:09 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:27:09 [info] [Streams] found a decoder for /home/niko/Music/Aviators/Iron Horizon.mp3
+14:27:09 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:27:12 [info] [ffmpegdecoder] finished decoding.
+14:27:14 [info] [GaplessTransport] stop
+14:27:14 [info] [Player] new instance created
+14:27:14 [info] [Stream] opening /home/niko/Music/Aviators/I'll Find You.mp3
+14:27:14 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators/I'll Find You.mp3
+14:27:14 [info] [ffmpegdecoder] parsing data stream...
+14:27:14 [info] [ffmpegdecoder] found audio stream!
+14:27:14 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:27:14 [info] [Streams] found a decoder for /home/niko/Music/Aviators/I'll Find You.mp3
+14:27:14 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:27:34 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:27:34 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:27:34 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:31:15 [info] [ffmpegdecoder] finished decoding.
+14:31:17 [info] [GaplessTransport] stop
+14:31:18 [info] [Player] new instance created
+14:31:18 [info] [Stream] opening /home/niko/Music/Aviators, Vortex/I'll Find You, Part 2 (feat. Vortex).mp3
+14:31:18 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators, Vortex/I'll Find You, Part 2 (feat. Vortex).mp3
+14:31:18 [info] [ffmpegdecoder] parsing data stream...
+14:31:18 [info] [ffmpegdecoder] found audio stream!
+14:31:18 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:31:18 [info] [Streams] found a decoder for /home/niko/Music/Aviators, Vortex/I'll Find You, Part 2 (feat. Vortex).mp3
+14:31:18 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:31:38 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:31:38 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:31:38 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:39:36 [info] [ffmpegdecoder] finished decoding.
+14:39:38 [info] [GaplessTransport] stop
+14:39:39 [info] [Player] new instance created
+14:39:39 [info] [Stream] opening /home/niko/Music/Aviators/Cloud Ocean.mp3
+14:39:39 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators/Cloud Ocean.mp3
+14:39:39 [info] [ffmpegdecoder] parsing data stream...
+14:39:39 [info] [ffmpegdecoder] found audio stream!
+14:39:39 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:39:39 [info] [Streams] found a decoder for /home/niko/Music/Aviators/Cloud Ocean.mp3
+14:39:39 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:39:58 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:39:58 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:39:58 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:45:30 [info] [ffmpegdecoder] finished decoding.
+14:45:32 [info] [GaplessTransport] stop
+14:45:32 [info] [Player] new instance created
+14:45:32 [info] [Stream] opening /home/niko/Music/Aviators/His Arrival.mp3
+14:45:32 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators/His Arrival.mp3
+14:45:32 [info] [ffmpegdecoder] parsing data stream...
+14:45:32 [info] [ffmpegdecoder] found audio stream!
+14:45:32 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:45:32 [info] [Streams] found a decoder for /home/niko/Music/Aviators/His Arrival.mp3
+14:45:32 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:45:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:45:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:45:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:46:16 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+14:46:23 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:46:23 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:46:23 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+14:46:23 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:46:23 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+14:46:23 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:46:23 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+14:46:23 [info] [LocalLibrary] query 'CategoryListQuery' running
+14:46:23 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+14:46:24 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+14:46:24 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+14:46:24 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+14:46:24 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:46:24 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:46:24 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:46:26 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+14:46:26 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+14:46:26 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+14:46:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:46:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:46:26 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:46:27 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+14:46:27 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+14:46:27 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+14:46:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:46:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:46:27 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:46:28 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:46:28 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:46:28 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:46:28 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+14:46:28 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+14:46:28 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+14:51:11 [info] [ffmpegdecoder] finished decoding.
+14:51:13 [info] [GaplessTransport] stop
+14:51:13 [info] [Player] new instance created
+14:51:13 [info] [Stream] opening /home/niko/Music/Aviators/The Ticketmaster's Waltz.mp3
+14:51:13 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators/The Ticketmaster's Waltz.mp3
+14:51:13 [info] [ffmpegdecoder] parsing data stream...
+14:51:13 [info] [ffmpegdecoder] found audio stream!
+14:51:13 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:51:13 [info] [Streams] found a decoder for /home/niko/Music/Aviators/The Ticketmaster's Waltz.mp3
+14:51:13 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:51:33 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:51:33 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:51:33 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:55:30 [info] [ffmpegdecoder] finished decoding.
+14:55:32 [info] [GaplessTransport] stop
+14:55:32 [info] [Player] new instance created
+14:55:32 [info] [Stream] opening /home/niko/Music/Aviators/The Path Home.mp3
+14:55:32 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators/The Path Home.mp3
+14:55:32 [info] [ffmpegdecoder] parsing data stream...
+14:55:32 [info] [ffmpegdecoder] found audio stream!
+14:55:32 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:55:32 [info] [Streams] found a decoder for /home/niko/Music/Aviators/The Path Home.mp3
+14:55:32 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:55:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:55:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:55:52 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+14:59:00 [info] [ffmpegdecoder] finished decoding.
+14:59:02 [info] [GaplessTransport] stop
+14:59:03 [info] [Player] new instance created
+14:59:03 [info] [Stream] opening /home/niko/Music/Aviators/Absolution.mp3
+14:59:03 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators/Absolution.mp3
+14:59:03 [info] [ffmpegdecoder] parsing data stream...
+14:59:03 [info] [ffmpegdecoder] found audio stream!
+14:59:03 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+14:59:03 [info] [Streams] found a decoder for /home/niko/Music/Aviators/Absolution.mp3
+14:59:03 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+14:59:23 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+14:59:23 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+14:59:23 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+15:03:52 [info] [ffmpegdecoder] finished decoding.
+15:03:55 [info] [GaplessTransport] stop
+15:03:55 [info] [Player] new instance created
+15:03:55 [info] [Stream] opening /home/niko/Music/Aviators, Radiarc/His Arrival.mp3
+15:03:55 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators, Radiarc/His Arrival.mp3
+15:03:55 [info] [ffmpegdecoder] parsing data stream...
+15:03:55 [info] [ffmpegdecoder] found audio stream!
+15:03:55 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:03:55 [info] [Streams] found a decoder for /home/niko/Music/Aviators, Radiarc/His Arrival.mp3
+15:03:55 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:04:15 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+15:04:15 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+15:04:15 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+15:08:43 [info] [ffmpegdecoder] finished decoding.
+15:08:45 [info] [GaplessTransport] stop
+15:08:45 [info] [Player] new instance created
+15:08:45 [info] [Stream] opening /home/niko/Music/Aviators/Aeterno II.mp3
+15:08:45 [info] [LocalFileStream] opening file: /home/niko/Music/Aviators/Aeterno II.mp3
+15:08:45 [info] [ffmpegdecoder] parsing data stream...
+15:08:45 [info] [ffmpegdecoder] found audio stream!
+15:08:45 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+15:08:45 [info] [Streams] found a decoder for /home/niko/Music/Aviators/Aeterno II.mp3
+15:08:45 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+15:09:05 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+15:09:05 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+15:09:05 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4

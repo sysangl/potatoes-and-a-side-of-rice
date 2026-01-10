@@ -1,10 +1,35 @@
 #!/bin/bash
 
 
+IFS=$'\n' read -r -d '' -a ricelist < <( ls -1 ./Rices/ && printf '\0')
 
-echo "Available Rices =========="
-ls -1 ./Rices
+i=0
 
-#read -p "Enter theme name : " themename
+echo "Available Rices (${#ricelist[@]}) ==================="
+for ricename in ${ricelist[@]}
+do
+    echo "  $i) $ricename"
+    i=$(($i+1))
+done
+echo "======================================="
+read -p "Enter theme index (0-$((${#ricelist[@]}-1))) : " themeidx
 
-#echo "Switched to $themename"
+if [ $themeidx -gt $((${#ricelist[@]}-1)) ]; then
+    echo "Invalid theme index"
+elif [ $themeidx -lt 0 ]; then
+    echo "Invalid theme index"
+else
+    echo "Switching to ${ricelist[$themeidx]}"
+    IFS=$'\n' read -r -d '' -a folderlist < <( ls -1 -A ./Rices/${ricelist[$themeidx]}/ && printf '\0')
+    
+    j=0
+    for foldername in ${folderlist[@]}
+    do
+        echo "  $j> Copying ./Rices/${ricelist[$themeidx]}/$foldername to ~"
+        cp -f -r ./Rices/${ricelist[$themeidx]}/$foldername ~
+        j=$(($j+1))
+    done
+    
+fi
+
+
