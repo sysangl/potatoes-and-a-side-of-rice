@@ -1,10 +1,6 @@
 #!/bin/bash
-
-
 IFS=$'\n' read -r -d '' -a ricelist < <( ls -1 ./Rices/ && printf '\0')
-
 i=0
-
 echo "Available Rices (${#ricelist[@]}) ==================="
 for ricename in ${ricelist[@]}
 do
@@ -19,17 +15,24 @@ if [ $themeidx -gt $((${#ricelist[@]}-1)) ]; then
 elif [ $themeidx -lt 0 ]; then
     echo "Invalid theme index"
 else
-    echo "Switching to ${ricelist[$themeidx]}"
-    IFS=$'\n' read -r -d '' -a folderlist < <( ls -1 -A ./Rices/${ricelist[$themeidx]}/ && printf '\0')
-    
+    themename=${ricelist[$themeidx]}
+    if [ $themename == $(cat ~/.current_rice_theme) ]; then
+        echo "Reloading $themename"
+    else
+        echo "Switching to $themename"
+    fi
+
+    IFS=$'\n' read -r -d '' -a folderlist < <( ls -1 -A ./Rices/$themename/ && printf '\0')
     j=0
     for foldername in ${folderlist[@]}
     do
-        echo "  $j> Copying ./Rices/${ricelist[$themeidx]}/$foldername to ~"
-        cp -f -r ./Rices/${ricelist[$themeidx]}/$foldername ~
+        echo "  $j> Copying ./Rices/$themename/$foldername to ~"
+        cp -f -r ./Rices/$themename/$foldername ~
         j=$(($j+1))
-    done
-    
+    done    
+    echo "Successfully switched to $themename"
+    touch ~/.current_rice_theme
+    echo "$themename" > ~/.current_rice_theme
 fi
 
 
