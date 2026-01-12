@@ -22,6 +22,9 @@ else
         echo "Switching to $themename"
     fi
 
+    touch ~/.current_rice_theme
+    echo "$themename" > ~/.current_rice_theme
+
     IFS=$'\n' read -r -d '' -a folderlist < <( ls -1 -A ./Rices/$themename/ && printf '\0')
     j=0
     for foldername in ${folderlist[@]}
@@ -31,8 +34,9 @@ else
         j=$(($j+1))
     done    
     echo "Successfully switched to $themename"
-    touch ~/.current_rice_theme
-    echo "$themename" > ~/.current_rice_theme
+
+    pkill waybar
+    waybar > /dev/null 2>&1 & 
 fi
 
 
