@@ -10,6 +10,18 @@ done
 echo "======================================="
 read -p "Enter theme index (0-$((${#ricelist[@]}-1))) : " themeidx
 
+
+echo "Checking for shared rice scripts"
+if [ ! -d ~/.shared-rice-scripts ]; then
+    echo "Shared scripts not found"
+    echo "Copying..."
+    cp -f -r ./Rices/.shared-rice-scripts ~
+else 
+    echo "Updating scripts"
+    cp -f -r ./Rices/.shared-rice-scripts ~
+fi
+echo "Finished copying"
+
 if [ $themeidx -gt $((${#ricelist[@]}-1)) ]; then
     echo "Invalid theme index"
 elif [ $themeidx -lt 0 ]; then

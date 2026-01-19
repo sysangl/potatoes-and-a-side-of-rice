@@ -22,7 +22,7 @@
 # Set some variables
 wall_dir="${HOME}/.config/hypr/wallpapers/"
 cacheDir="${HOME}/.cache/wallpicker/$(cat ~/.current_rice_theme)"
-rofi_command="rofi -x11 -dmenu -theme ${HOME}/.config/rofi/wall-select.rasi -theme-str ${rofi_override}"
+rofi_command="rofi -dmenu -theme ${HOME}/.config/rofi/wall-select.rasi -theme-str ${rofi_override}"
 
 # Create cache dir if not exists
 if [ ! -d "${cacheDir}" ] ; then
